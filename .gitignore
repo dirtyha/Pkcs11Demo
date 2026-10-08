@@ -1,0 +1,35 @@
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Native (CMake) build output
+native/build/
+build/
+*.so
+*.o
+*.a
+
+# Certificates and keys — only the README is tracked
+certs/*
+!certs/README.md
+
+# Private keys and secrets — never commit
+*.key
+*.key.pem
+*.pfx
+*.p12
+*.srl
+.env
+appsettings.*.local.json
+
+# Editor / OS
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+.idea/
+*.swp
+.DS_Store
